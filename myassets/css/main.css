@@ -1,0 +1,86 @@
+body {
+	background-color: #f1f1f1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn-link:hover {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.nav-tabs .nav-link {
+	background-color: unset !important;
+}
+
+.modal-dialog {
+	margin: unset;
+}
+
+.modal-dialog-scrollable .modal-content {
+	max-height: 100% !important;
+}
+
+.modal-dialog-scrollable {
+	display: -ms-flexbox;
+	display: flex;
+	max-height: 100%;
+}
+
+main.app {
+	padding: 70px 0;
+	display: block;
+}
+
+.profile img {
+	width: 100px;
+	height: 100px;
+}
+
+.form-group {
+	margin-bottom: .5rem;
+}
+
+.form-group select, .form-group
+input, .form-group textarea,
+.input-group-append button {
+	border: 1px solid #71aeef !important;
+}
+
+.form-group input, .form-group select, .form-group textarea{
+	border-radius: unset;
+	border-bottom: 1px solid blue;
+	border-top: unset !important;
+	border-left: unset !important;
+	border-right: unset !important;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+	box-shadow: unset !important;
+}
+
+.card .card-header i {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+footer {
+	height: 50px;
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, .2);
+	background-color: white;
+}
+
+footer .row p {
+	font-size: 11px;
+}
+
+footer .row .col-4 a {
+	flex-direction: column;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+}
